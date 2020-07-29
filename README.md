@@ -2,7 +2,7 @@
 计算、神经网络
 clc;
 clear all;
-[xdata,textdata]=xlsread("exp12_4_2.xls");% （读取excel中的问当数据）
+[xdata,textdata]=xlsread("exp12_4_2.xls");% （读取excel中的文档数据）
 %读取货运量数据
 [n,m]=size(xdata);
 %输入样本数量为20
